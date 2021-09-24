@@ -8,6 +8,8 @@ body{
     background-size: cover;
     background-color: hsl(225, 100%, 94%);
     font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
 }
 
 .container{
@@ -20,10 +22,12 @@ img {
 
 .container_box{
     width: 90%;
-    margin: 0 auto;
-    background-color: white;
+    margin: 4em auto;
+    background-color: hsl(225, 100%, 98%);;
     border-radius: 30px;
     text-align: center;
+    -webkit-box-shadow: -3px 48px 29px -11px rgba(0,0,0,0.35); 
+    box-shadow: -3px 48px 29px -11px rgba(0,0,0,0.35);
 }
 
 .hero{
@@ -31,7 +35,40 @@ img {
 }
 
 .container__box___content {
- background-color: red;
  width: 85%;
  margin: 0 auto;
+ padding: 2em;
+
 }
+
+.title {
+    color: black;
+    font-weight: 700;
+}
+
+.btn{
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.payment_btn{
+    color: hsl(225, 100%, 98%);
+    border: solid transparent 1px;
+    background-color: hsl(245, 75%, 52%);
+    padding: .8em;
+    border-radius: 15px;
+    margin: 1em 0;
+    -webkit-box-shadow: -3px 48px 29px -11px rgba(0,0,0,0.35); 
+    box-shadow: -3px 48px 29px -11px rgba(0,0,0,0.35);
+}
+
+.payment_btn:hover{
+    background-color: hsl(228, 72%, 42%);
+}
+
+.cancel_order_btn{
+    color: hsl(224, 23%, 55%);
+}
+
