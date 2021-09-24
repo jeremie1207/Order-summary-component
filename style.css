@@ -21,8 +21,8 @@ img {
 }
 
 .container_box{
-    width: 90%;
-    margin: 4em auto;
+    width: 85%;
+    margin: 3em auto;
     background-color: hsl(225, 100%, 98%);;
     border-radius: 30px;
     text-align: center;
