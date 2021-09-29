@@ -73,6 +73,9 @@ img {
     color: hsl(224, 23%, 55%);
     margin-bottom: 1.5em;
 }
+.cancel_order_btn:hover{
+    color:black;
+}
 
 
 .plan{
@@ -81,6 +84,7 @@ img {
     align-items: center;
     justify-content: space-between;
     margin: 2em 0;
+    background-color: hsla(224, 23%, 55%, 0.032);
 }
 
 .icon_music{
@@ -95,7 +99,7 @@ img {
 
 .change_link{
     font-weight: bold;
-    color:hsl(245, 23%, 51%);
+    color:hsl(245, 75%, 52%);
 }
 
 
