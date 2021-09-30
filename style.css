@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    min-height: 90vh;
+    min-height: 100vh;
 }
 
 img {
@@ -23,7 +23,7 @@ img {
 .container_box{
     width: 90%;
     max-width: 25em;
-    margin: 3em auto;
+    margin: 5em auto;
     background-color: hsl(225, 100%, 98%);
     border-radius: 15px;
     text-align: center;
@@ -38,14 +38,19 @@ img {
 .container__box___content {
  width: 90%;
  margin: 0 auto;
- padding: 1em;
+ padding: 1em 0;
 
 }
 
 .title {
     color: black;
     font-weight: 700;
+    margin: 0;
     
+}
+
+.description{
+    margin-bottom: 0;
 }
 
 .btn{
